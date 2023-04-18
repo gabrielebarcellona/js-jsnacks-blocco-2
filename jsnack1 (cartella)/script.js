@@ -5,19 +5,18 @@ se è dispari inseriscilo nell’array.*/
 
 let myArr =[]
 
-myArr = prompt('inserire un numero')
-myArr = prompt('inserire un numero')
-myArr = prompt('inserire un numero')
-myArr = prompt('inserire un numero')
-myArr = prompt('inserire un numero')
-myArr = prompt('inserire un numero')
+let number ;
 
-for(i = 0; i< myArr.length; i++){
-    if(myArr % 2){
-        console.log('spiacenti,il tuo numero non è corretto per essere inserito nell\'array.')
-    }else {
-        console.log(myArr)
+
+
+for(let i = 0; i< 6; i++){
+    number = prompt('dammi un numero')
+
+    if(number % 2 == 1){
+        console.log(number)
+        myArr[i] = number 
+        }
+        
     }
+    console.log(myArr)
 
-    
-}
