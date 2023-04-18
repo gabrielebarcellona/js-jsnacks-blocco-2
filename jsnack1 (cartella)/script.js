@@ -1,0 +1,18 @@
+/*1) snack 1.5:
+Crea un array vuoto.
+Chiedi per 6 volte all’utente di inserire un numero,
+se è dispari inseriscilo nell’array.*/
+
+const myArr =['']
+
+myArr = prompt('inserire un numero')
+
+for(i = 0; i< myArr.length; i++){
+    if(myArr % 2){
+        console.log('spiacenti,il tuo numero non è corretto per essere inserito nell\'array.')
+    }else {
+        console.log(myArr)
+    }
+
+    
+}
