@@ -9,4 +9,4 @@ for(let i = 0; i < arrNums.length; i++){
     }
 }
 
-console.log(sum)
+console.log('la somma dei numeri in posizione dispari è :' + sum)
