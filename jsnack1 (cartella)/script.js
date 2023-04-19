@@ -14,7 +14,7 @@ for(let i = 0; i< 6; i++){
 
     if(number % 2 == 1){
         console.log(number)
-        myArr[i] = number 
+        myArr.push(number);
         }
         
     }
